@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:layout_below="@+id/search"
+        android:layout_marginTop="98dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="144dp" >
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/serchbar" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btn"-->
+<!--        android:layout_width="116dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="98dp"-->
+<!--        android:layout_marginEnd="250dp" />-->
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/btn2"-->
+<!--        android:text="2"-->
+<!--        android:layout_width="116dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="98dp"-->
+<!--        android:layout_marginEnd="77dp" />-->
+
+
+    </RelativeLayout>
